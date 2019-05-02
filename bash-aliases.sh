@@ -1,3 +1,7 @@
+# Automatons
+alias qw='python /home/dude-jr/Automatom/cliWeather.py'
+alias rgb='python /home/dude-jr/Automatom/colorPicker.py'
+
 # system update
 alias update='sudo /home/dude-jr/Desktop/Basher/manjaro-update.sh'
 
@@ -46,6 +50,9 @@ alias svi='sudo vi'
 alias vis='vim "+set si"'
 alias edit='vim'
 
+# emacs
+alias es='setsid emacs'
+
 # ping
 alias ping='ping -c 5'
 alias fastping='ping -c 100 -s.2'
@@ -65,7 +72,7 @@ alias ipe='curl ipinfo.io/ip'
 alias ipi='ip -4 addr'
 
 # system info
-alias meminfo='free -m -l -t'
+alias meminfo='free -l -t'
 alias psmem='ps auxf | sort -nr -k 4'
 alias psmem10='ps auxf | sort -nr -k 4 | head -10'
 alias pscpu='ps auxf | sort -nr -k 3'
@@ -84,4 +91,3 @@ alias nowdate='date +"%d-%m-%Y"'
 
 alias df='df -H'
 alias du='du -ch'
-
