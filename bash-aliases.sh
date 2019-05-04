@@ -1,9 +1,9 @@
 # Automatons
-alias qw='python /home/dude-jr/Automatom/cliWeather.py'
-alias rgb='python /home/dude-jr/Automatom/colorPicker.py'
+alias qw='python /home/$USER/Automatom/cliWeather.py'
+alias rgb='python /home/$USER/Automatom/colorPicker.py'
 
 # system update
-alias update='sudo /home/dude-jr/Desktop/Basher/manjaro-update.sh'
+alias update='sudo /home/$USER/Desktop/Basher/manjaro-update.sh'
 
 # close Term
 alias e='exit'
