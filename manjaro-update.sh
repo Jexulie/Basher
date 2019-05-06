@@ -1,3 +1,3 @@
 echo "--- Starting Update ---"
-sudo pacman -Syyuu
+sudo pacman -Syyuu --noconfirm
 echo " --- Update Done! ---"
