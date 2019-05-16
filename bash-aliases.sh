@@ -1,6 +1,7 @@
 # Automatons
-alias qw='python /home/$USER/Automatom/cliWeather.py'
-alias rgb='python /home/$USER/Automatom/colorPicker.py'
+alias qw='python /home/$USER/Automatom/Weather/cliWeather.py'
+alias rgb='python /home/$USER/Automatom/RGB/colorPicker.py'
+alias search='/home/$USER/Automatom/FileSearcher/search'
 
 # system update
 alias update='sudo /home/$USER/Desktop/Basher/manjaro-update.sh'
@@ -80,8 +81,14 @@ alias pscpu10='ps auxf | sort -nr -k 3 | head -10'
 alias cpuinfo='lscpu'
 alias gpumeminfo='grep -i --color memory /var/log/Xorg.0.log'
 
+alias hardware='inxi -F'
+
 # wget resume
 alias wget='wget -c'
+
+#cron jobs
+alias tasks='crontab -l'
+alias addtask='crontab -e'
 
 # misc
 alias path='echo -e ${PATH//:/\\n}'
