@@ -90,6 +90,9 @@ alias wget='wget -c'
 alias tasks='crontab -l'
 alias addtask='crontab -e'
 
+# FTP
+alias centos='ftp -p 192.168.0.220'
+
 # misc
 alias path='echo -e ${PATH//:/\\n}'
 alias now='date +"%T"'
