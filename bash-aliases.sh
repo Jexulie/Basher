@@ -6,6 +6,10 @@ alias search='/home/$USER/Automatom/FileSearcher/search'
 # system update
 alias update='sudo /home/$USER/Desktop/Basher/manjaro-update.sh'
 
+# Centos
+alias centos='ssh dude-jr@192.168.0.220'
+alias ftp-centos='ftp 192.168.0.220'
+
 # close Term
 alias e='exit'
 
