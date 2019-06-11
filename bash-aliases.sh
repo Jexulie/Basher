@@ -4,11 +4,11 @@ alias rgb='python /home/$USER/Automatom/RGB/colorPicker.py'
 alias search='/home/$USER/Automatom/FileSearcher/search'
 
 # system update
-alias update='sudo /home/$USER/Desktop/Basher/manjaro-update.sh'
+alias update='/home/$USER/Desktop/Basher/manjaro-update.sh'
 
 # Centos
 alias centos='ssh dude-jr@192.168.0.220'
-alias ftp-centos='ftp 192.168.0.220'
+alias ftp-centos='ftp -p 192.168.0.220'
 
 # close Term
 alias e='exit'
@@ -94,8 +94,6 @@ alias wget='wget -c'
 alias tasks='crontab -l'
 alias addtask='crontab -e'
 
-# FTP
-alias centos='ftp -p 192.168.0.220'
 
 # misc
 alias path='echo -e ${PATH//:/\\n}'
