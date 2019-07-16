@@ -3,6 +3,9 @@ alias qw='python /home/$USER/Automatom/Weather/cliWeather.py'
 alias rgb='python /home/$USER/Automatom/RGB/colorPicker.py'
 alias search='/home/$USER/Automatom/FileSearcher/search'
 
+# python aliases
+alias py='time python'
+
 # system update
 alias update='/home/$USER/Desktop/Basher/manjaro-update.sh'
 

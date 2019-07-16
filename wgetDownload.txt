@@ -1,0 +1,1 @@
+wget -m ftp://username:password@URL/repo
